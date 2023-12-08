@@ -1,5 +1,21 @@
+@font-face {
+  font-family: Petita-light;
+  src: url(./fonts/PetitaLight.ttf);
+}
+
+@font-face {
+  font-family: Petita-bold;
+  src: url(./fonts/PetitaBold.ttf);
+}
+
+@font-face {
+  font-family: Petita-med;
+  src: url(./fonts/PetitaMedium.ttf);
+}
+
 *{
   margin: 0px;
   height: 0px;
-  background-color: #EBEBEB;
+  background-color: #EBEBEB; 
+  font-family: Petita-med;
 }
