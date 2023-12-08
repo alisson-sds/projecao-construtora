@@ -1,0 +1,48 @@
+a {
+    color: #01161E;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.logo{
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #D6EFFF;
+    height: 8vh;
+}
+
+.nav-list{
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li{
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.nav-list li a{
+    background: #D6EFFF;
+}
+
+.mobile-menu{
+    cursor: pointer;
+}
+
+.mobile-menu div{
+    widows: 32px;
+    height: 2px;
+    background: #01161E;
+    margin: 8px;
+}
