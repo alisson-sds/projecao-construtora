@@ -5,12 +5,12 @@ a {
 }
 
 .logo{
-    margin-bottom: 150px; 
+    margin-bottom: 100px; 
 }
 
 .logo img{
-  width: 270px;
-  height: 165px;
+  width: 216px;
+  height: 132px;
   background: #01161e;
 }
 
@@ -19,7 +19,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   background: #01161e;
-  height: 28vh;
+  height: 22vh;
   padding-bottom: 15px;
 }
 
@@ -35,6 +35,10 @@ nav {
 
 .nav-list li a {
   background: #01161e;
+}
+
+.nav-list li a:hover {
+  color: #797878;
 }
 
 .mobile-menu {
@@ -96,4 +100,9 @@ nav {
 
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
+}
+
+.img-roulette{
+  border: 1px solid red;
+  height: 20vw;
 }

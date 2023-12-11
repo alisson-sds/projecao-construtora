@@ -27,9 +27,12 @@ function App() {
             <li><a href="/">Localização</a></li>
           </ul>
         </nav>
-      </header>
+      </header>      
       <main>
-
+        {/*
+      <p>Parag</p>
+        <div className="img-roulette"></div>
+        */}
       </main>
     </>
   );
