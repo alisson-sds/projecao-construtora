@@ -21,6 +21,7 @@ nav {
   background: #01161e;
   height: 22vh;
   padding-bottom: 15px;
+  position: relative;
 }
 
 .nav-list {
@@ -61,7 +62,7 @@ nav {
     overflow-x: hidden;
   }
   .nav-list {
-    position: absolute;
+    position: fixed;
     top: 28vh;
     right: 0;
     width: 100vw;
@@ -102,7 +103,9 @@ nav {
   transform: rotate(45deg) translate(-5px, -7px);
 }
 
-.img-roulette{
+main{
+  margin-top: 25vh;
   border: 1px solid red;
-  height: 20vw;
+  height: 80vh;
+  margin-left: 20px;
 }
