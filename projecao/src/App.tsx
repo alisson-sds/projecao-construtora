@@ -46,17 +46,7 @@ function App() {
         </nav>
       </header>
       <main>
-        <Swiper>
-          <SwiperSlide>
-            <h1>teste</h1>
-          </SwiperSlide>
-          <SwiperSlide>
-            <h1>teste1</h1>
-          </SwiperSlide>
-          <SwiperSlide>
-            <h1>teste2</h1>
-          </SwiperSlide>
-        </Swiper>
+        a
       </main>
       <footer></footer>
     </>
