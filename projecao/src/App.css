@@ -5,12 +5,12 @@ a {
 }
 
 .logo{
-    margin-bottom: 100px; 
+    margin-bottom: 65px; 
 }
 
 .logo img{
-  width: 216px;
-  height: 132px;
+  width: 173px;
+  height: 106px;
   background: transparent;
 }
 
@@ -18,8 +18,8 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(to bottom, rgba(1, 22, 30, 1), rgba(1, 22, 30, 0)); 
-  height: 22vh;
+  background: linear-gradient(to bottom, rgba(1, 22, 30, 1), rgba(1, 22, 30, 0.3)); 
+  height: 16vh;
   padding-bottom: 15px;
   position: relative; 
 }
@@ -39,7 +39,7 @@ nav {
 }
 
 .nav-list li a:hover {
-  color: #01161e;
+  color: #8d8d8d;
 }
 
 .mobile-menu {
@@ -61,13 +61,16 @@ nav {
   body {
     overflow-x: hidden;
   }
+  nav {
+    background: rgba(1, 22, 30, 0.7);
+  }
   .nav-list {
     position: fixed;
-    top: 23vh;
+    top: 17.5vh;
     right: 0;
     width: 100vw;
     height: 46vh;
-    background: #797878;
+    background: rgba(1, 22, 30, 0.7);
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
@@ -105,5 +108,10 @@ nav {
 
 main{
   border: 1px solid red;
+  height: 100vh;
+}
+
+.mainImg{
+  width: 100%;
   height: 100vh;
 }

@@ -1,11 +1,11 @@
 import { useState } from "react";
-import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/css";
 
 import "./App.css";
 
 import Logo from "./assets/logo-proj.png";
+import Back from "./assets/predio1.jpg";
 
 function App() {
   const [isMobileMenuOpenned, setIsMobileMenuOpenned] =
@@ -46,7 +46,7 @@ function App() {
         </nav>
       </header>
       <main>
-        a
+      <img className="mainImg" src={Back} alt="Imagem background" title="Imagem background"></img>
       </main>
       <footer></footer>
     </>
